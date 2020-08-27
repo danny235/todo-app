@@ -9,10 +9,10 @@ main.container {
     margin: auto;
 }
 
-ol li {
-    cursor: pointer;
-    list-style: none;
+.input-sec {
+    text-align: center;
 }
+
 
 section.todoBody {
     margin: 20px;

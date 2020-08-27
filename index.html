@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,22 +8,25 @@
     <title>Todo App</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <main class="container">
-        <section>
-            <h1>TODO</h1>
-            
-                <input type="text" id="textInput">
-                <button class="add">ADD</button>
-                <button class="remove">REMOVE</button>
-            
+        <h1><span>TODO</span> LIST</h1>
+        <section class="input-sec">
+            <input type="text" placeholder="What should i do today...." id="textInput">
+            <button class="add">+</button>
         </section>
         <section class="todoBody">
-            <ol class="todos"></ol>
+            <!-- <div class="todos">
+                <input type="text" class="itemInput" value="Sport" disabled>
+                <button class="editBtn">EDIT</button>
+                <button class="removeBtn">REMOVE</button>
+            </div> -->
         </section>
     </main>
 
 
     <script src="app.js"></script>
 </body>
+
 </html>
