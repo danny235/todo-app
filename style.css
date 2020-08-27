@@ -5,6 +5,15 @@
 }
 
 main.container {
+    width: 85%;
+    margin: auto;
+}
+
+ol li {
+    cursor: pointer;
+    list-style: none;
+}
+
+section.todoBody {
     margin: 20px;
-    text-align: center;
 }

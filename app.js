@@ -8,10 +8,28 @@ addBtn.addEventListener('click', showTodo);
 //removeBtn.addEventListener('click', removeTodo);
 
 function showTodo() {
-    const textInput = document.querySelector('#textInput').value;
+    let textInput = document.querySelector('#textInput').value;
     let text = document.createTextNode(textInput);
     let newList = document.createElement('li');
-
+    
     newList.appendChild(text);
     todoList.appendChild(newList);
+    textInput = "";
+
+    newList.addEventListener('click', () => {
+        newList.style.textDecoration = "line-through";
+        newList.style.listStyleImage = "url(/download.png)"
+    });
+
+    newList.addEventListener('dblclick', () => {
+        todoList.removeChild(newList);
+    });
+    
+    removeBtn.addEventListener('click', () => {
+        todoList.removeChild(newList);
+        
+    });
+    
 }
+
+
