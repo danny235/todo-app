@@ -12,8 +12,8 @@ function showTodo() {
     itemBox.classList.add("todos");
 
     let text = textInput.value;
-    //let newText = document.createTextNode(text);
     let newList = document.createElement('input');
+    newList.classList.add('itemInput');
     newList.value = text;
     newList.disabled = true;
     newList.type = "text";
@@ -30,8 +30,10 @@ function showTodo() {
     itemBox.appendChild(newList);
     itemBox.appendChild(editBtn);
     itemBox.appendChild(removeBtn);
-
-    todoBody.appendChild(itemBox);
+    if(textInput.value !== "") {
+        todoBody.appendChild(itemBox);
+    }
+   
     textInput.value = "";
     editBtn.addEventListener('click', () => {
         newList.disabled = !true;
