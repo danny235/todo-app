@@ -5,15 +5,21 @@
 }
 
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Balsamiq Sans', cursive;
     text-align: center;
     background: #000;
     color: #fff;
 }
 
+.header {
+    font-weight: 700;
+    font-size: 40px;
+}
+
 h1 span {
     color: lime;
 }
+
 main.container {
     padding: 10px 0;
     margin: 10px 0;
@@ -26,23 +32,23 @@ main.container .input-sec {
 
 main.container .input-sec input[type="text"] {
     padding: 10px 5px;
-    width: 50%;
+    width: 70%;
     outline: none;
     border: 1px solid #fff;
     border-radius: 20px;
-    font-size: 10px;
-
+    font-size: 13px;
 }
 
-main.container .add {
+main.container button.add {
     background-color: lime;
-    width: 30px;
-    height: 31px;
+    width: 34px;
+    height: 36px;
     outline: none;
     border: none;
     border-radius: 80px;
     color: #fff;
-    font-weight: 400;
+    font-size: 17px;
+    font-weight: bold;
     box-shadow: 2px 1px 1px 0 rgb(150, 149, 149);
 }
 
@@ -53,7 +59,7 @@ section.todoBody {
 section.todoBody div.todos {
     margin: 10px auto;
     border-bottom: 2px solid lime;
-    width: 70%;
+    width: 75%;
     
 }
 
@@ -61,7 +67,7 @@ section.todoBody input[type="text"] {
     background: none;
     border: none;
     color: #fff;
-    width: 50%;
+    width: 60%;
     outline: none;
     font-size: 12px;
 
