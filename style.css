@@ -39,6 +39,7 @@ main.container .input-sec input[type="text"] {
     font-size: 13px;
 }
 
+
 main.container button.add {
     background-color: lime;
     width: 34px;
@@ -58,7 +59,7 @@ section.todoBody {
 
 section.todoBody div.todos {
     margin: 10px auto;
-    border-bottom: 2px solid lime;
+    border-bottom: 2px solid #fff;
     width: 75%;
     
 }
