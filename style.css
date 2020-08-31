@@ -59,7 +59,7 @@ section.todoBody {
 section.todoBody div.todos {
   margin: 10px auto;
   border-bottom: 2px solid #fff;
-  width: 75%;
+  width: 79%;
   position: relative;
 }
 /* -------------------------------------------------- */
@@ -71,7 +71,7 @@ section.todoBody input[type="text"] {
   background: none;
   border: none;
   color: #fff;
-  width: 60%;
+  width: 48%;
   outline: none;
   font-size: 12px;
 }
@@ -81,7 +81,7 @@ section.todoBody .editBtn {
   color: lime;
   border: none;
   outline: none;
-  padding: 5px;
+  padding: 4px;
   font-size: 12px;
 }
 
@@ -90,7 +90,7 @@ section.todoBody .removeBtn {
   color: red;
   border: none;
   outline: none;
-  padding: 5px;
+  padding: 4px;
   font-size: 12px;
 }
 
@@ -100,6 +100,6 @@ section.todoBody .removeBtn {
   color: green;
   border: none;
   outline: none;
-  padding: 5px;
+  padding: 4px;
   font-size: 12px;
 }

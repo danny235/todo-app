@@ -64,6 +64,9 @@ function showTodo(e) {
     updateBtn.addEventListener('click', () => {
         itemBox.removeChild(updateBtn);
         newList.disabled = true;
+        if(newList.value == "") {
+            todoBody.removeChild(itemBox);
+        }
 
 
     });
